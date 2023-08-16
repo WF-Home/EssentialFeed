@@ -20,6 +20,7 @@
 		D9D737622A8A9A6900C51E9F /* EssentialFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D737612A8A9A6900C51E9F /* EssentialFeedUITestsLaunchTests.swift */; };
 		D9E993E02A8C598400BB7F6E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E993DF2A8C598400BB7F6E /* HTTPClient.swift */; };
 		D9E993E22A8C59FC00BB7F6E /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E993E12A8C59FC00BB7F6E /* FeedItemsMapper.swift */; };
+		D9E993E42A8D5DB000BB7F6E /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E993E32A8D5DB000BB7F6E /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D9D737612A8A9A6900C51E9F /* EssentialFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D9E993DF2A8C598400BB7F6E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		D9E993E12A8C59FC00BB7F6E /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
+		D9E993E32A8D5DB000BB7F6E /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				D9D737552A8A9A6900C51E9F /* EssentialFeedTests.swift */,
 				D9A264072A8AAA7D00947328 /* RemoteFeedLoaderTests.swift */,
+				D9E993E32A8D5DB000BB7F6E /* URLSessionHTTPClientTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A264082A8AAA7D00947328 /* RemoteFeedLoaderTests.swift in Sources */,
+				D9E993E42A8D5DB000BB7F6E /* URLSessionHTTPClientTests.swift in Sources */,
 				D9D737562A8A9A6900C51E9F /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
